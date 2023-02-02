@@ -78,7 +78,6 @@ namespace StudentManagement.Controllers
 
             studentService.Remove(id);
 
-
             return Ok($"Student with ID = {id} removed!");
         }
     }
